@@ -2,18 +2,36 @@
 #### A Dynamic Metric for Dialog Modeling Learned from Human Conversations
 This repository contains the code and pre-trained models for the paper 'DYME: A Dynamic Metric for Dialog Modeling Learned from Human Conversations'. 
 DYME is a BERT-based approach to model the change of utterance metrics within dialogs. 
-The code allows you to train a neural network that predicts the metrics of the next sentence for given a dialog.
+The code allows you to train DYME, a neural network that predicts the metrics of the next sentence for given a dialog.
 
 
-## Project structure
-
-    ├── README.md                                   <- The top-level README for developers using DYME: you are here =)
+## Repository structure
+    
+    ├── docs/               <- Slides of the conference presentation at ICONIP 2021
     │
-    ├── datasets                                    <- Dialog datasets (will be downloaded during setup)
-    │        ├── dailydialog
-    │        └── empatheticdialogues                 
+    ├── src/                <- Source code for annotating dialogs, analyzing dialogs visually, and training DYME
+    │    │   
+    │    ├── models/                        <- DYME and Baseline models
+    │    │   
+    │    ├── analyze_dialog_metrics.ipynb   <- Jupyter Notebook for visualizing the progression of metrics in dialogs
+    │    │   
+    │    ├── annotate_dialogs.py            <- Automatically annotate dialogs in a given dataset with a set of metrics
+    │    │   
+    │    ├── configs.py                     <- Project configuration settings
+    │    │   
+    │    ├── dataset.py                     <- Torch dataset wrapper
+    │    │   
+    │    ├── metric_helpers.py              <- Helper functions for computing metrics
+    │    │   
+    │    ├── metrics.py                     <- Actual dialog metrics that are used to annotate dialogs 
+    │    │   
+    │    └── train_dyme.py                  <- Source code for training DYME
     │
-    └── docs/                                       <- Slides and video presentation at ICONIP 2021
+    ├── Makefile            <- Useful commands for setting this project up
+    │
+    ├── README.md           <- The top-level README for developers using DYME: you are here =)
+    │
+    └── requirements.txt    <- Package requirements the python environment
 
 ## Setup
 Clone the project, launch a terminal at the top-level directory and execute the following commands.
