@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+datasets/
+preprocessed_datasets/
+*__pycache__*

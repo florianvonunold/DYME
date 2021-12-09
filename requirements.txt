@@ -1,0 +1,34 @@
+# number crunching
+pandas
+numpy
+scipy
+scikit-learn
+
+# text preprocessing
+gensim
+spacy
+nltk
+text-unidecode
+
+# pre-trained models
+emoji
+transformers
+
+# tensorflow
+tensorflow==2.4.1
+tensorflow-hub==0.7.0
+tensorboardX==2.1
+
+# logging
+neptune-client
+psutil
+tqdm
+
+torch
+
+# plotting
+ipython
+jupyter
+plotly
+holoviews
+matplotlib
