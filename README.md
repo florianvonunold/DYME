@@ -4,6 +4,7 @@ This repository contains the code and pre-trained models for the paper 'DYME: A 
 DYME is a BERT-based approach to model the change of utterance metrics within dialogs. 
 The code allows you to train DYME, a neural network that predicts the metrics of the next sentence for given a dialog.
 
+![How DYME works](docs/DYME.gif)
 
 ## Repository structure
     
