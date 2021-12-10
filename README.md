@@ -147,3 +147,5 @@ von Unold F., Wintergerst M., Belzner L., Groh G. (2021) DYME: A Dynamic Metric 
 For help or issues using DYME, please submit a GitHub issue.
 
 For personal communication related to DYME, please contact [Florian von Unold](mailto:florian.von-unold@tum.de).
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=florianvonunold&hide=jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats)
