@@ -5,7 +5,7 @@ DYME is a BERT-based approach to model the change of utterance metrics within di
 The code in this repository allows you to train DYME, a neural network that predicts the utterance metrics of the next sentence for given a dialog.
 
 ![How DYME works](docs/DYME.gif)
-*DYME uses the textual context (= the words of the sentences) and the metric context (= numbers characterizing the sentences) of a given dialog to predict the metrics of the dialog's continuation at a given prediction position q. In this example, DYME takes the dialog up to the seventh utterance as input and predicts the metrics for utterance eight. The metric question, for example, indicates whether the given utterance contains both a question word and a question mark.*
+*DYME uses the textual context (= the words of the sentences) and the metric context (= numbers characterizing the sentences) of a given dialog to predict the metrics of the dialog's continuation at a given prediction position q. In this example, DYME takes the dialog up to the seventh utterance as input and predicts the metrics for utterance eight. For example, the metric question indicates whether the given utterance contains both a question word and a question mark - and DYME predicts whether the next sentence should be a question or not.*
 
 ## Repository structure
     
