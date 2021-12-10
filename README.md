@@ -1,8 +1,8 @@
 ## DYME
 #### A Dynamic Metric for Dialog Modeling Learned from Human Conversations
-This repository contains the code and pre-trained models for the paper 'DYME: A Dynamic Metric for Dialog Modeling Learned from Human Conversations'. 
+This repository contains the code and pre-trained models for the conference paper 'DYME: A Dynamic Metric for Dialog Modeling Learned from Human Conversations', which was published at the 28th International Conference on Neural Information Processing 2021 (ICONIP 2021). 
 DYME is a BERT-based approach to model the change of utterance metrics within dialogs. 
-The code allows you to train DYME, a neural network that predicts the metrics of the next sentence for given a dialog.
+The code in this repository allows you to train DYME, a neural network that predicts the utterance metrics of the next sentence for given a dialog.
 
 ![How DYME works](docs/DYME.gif)
 
